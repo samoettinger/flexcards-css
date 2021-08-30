@@ -1,68 +1,60 @@
-html {
-  font-family: "Raleway", "Helvetica", sans-serif;
-  font-weight: 400;
-  color: #2F3442;
-  height: 100%;
-  background-color: #FFFFFF;
+body{
+     font-family: 'Raleway', 'Helvetica', sans-serif;
+     color: #2F3442;
 }
 
 body .container{
-  max-width: 710px;
-  height: 170px;
-  margin: auto;
-  border: 1px solid #CAD0D2;
-  border-radius: 4px;
-  overflow: hidden;
-  text-align: center;
-  display: flex;
-  margin-top: 50px;
+     width: 700px;
+     margin: 100px auto;
+     display: flex;
+     justify-content: center;
+     border-radius: 5px;
+     border-top: 1px solid #b5c4c9;
+     border-bottom: 1px solid #b5c4c9;
 }
 
 body .container .card-elements{
-  height: 100%;
-  width: 33%;
-  flex-grow: 1;
+     text-align: center;
+     flex: 1 1 auto;
+     margin: 0px auto;
+     width: inherit;
+     border-right: 1px solid #b5c4c9;
+     border-left: 1px solid #b5c4c9;
 }
 
 body .container .card-elements.trophy{
-  border-right: 1px solid #D7DBDD;
-  border-left: 1px solid #D7DBDD;
-}
-
-body .container .card-elements .icon{
-  color: #BCD2DA;
-}
-
-body .container .card-elements .fa{
-  font-size: 35px;
-  margin-top: 20px;
-  margin-bottom: 15px;
+     border: none;
 }
 
 body .container .card-elements .icon-description{
-color: #57727C;
-font-size: 15px;
-align-items: center;
-height: 80%;
+     padding: 30px;
+     margin: auto;
+     height: 140px;
+     display: grid;
+     align-items: center;
+}
+
+body .container .card-elements .icon{
+     color: #BCD2DA;
+     font-size: 40px;
+     margin-bottom: 10px;
+}
+
+body .container .card-elements .description{
+     color: #29363b;
+     font-size: 15px;
 }
 
 body .container .card-elements .price{
-  color: #57727C;
-  font-size: 15px;
-  font-weight: 900;
-  border-top: 1px solid #D7DBDD;
-  background-color: #EEF3F5;
-  height: 20%;
-  padding-top: 7px;
-}
-
-@media (max-width: 320px) {
-  body .container{
-    max-width: 320px;
-    height: 140px;
-  }
-
-  body .container .card-elements .icon-description{
-    font-size: 10px;
-  }
+     color: #57727C;
+     font-size: 15px;
+     font-weight: 800;
+     
+     background-color: #EEF3F5;
+     border-top: 1px solid #D7DBDD;
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+     height: 30px;
+     padding: 5px 15px;
+     
 }
