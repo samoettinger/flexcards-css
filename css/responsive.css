@@ -2,10 +2,11 @@
 @media screen and (max-width: 800px){
 
      body .container{
+          transition: ease all 1s;
           width: 75%;
           flex-wrap: wrap;
      }
-
+     
      body .container .card-elements{
           border-right: 1px solid #b5c4c9;
           border-left: 1px solid #b5c4c9;

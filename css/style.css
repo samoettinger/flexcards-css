@@ -30,8 +30,9 @@ body .container .card-elements .icon-description{
      padding: 30px;
      margin: auto;
      height: 140px;
-     display: grid;
-     align-items: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
 }
 
 body .container .card-elements .icon{
